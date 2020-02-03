@@ -1,0 +1,9 @@
+#include<stdio.h>
+main() {
+ int x = 100, y = 50;
+ printf("더하기 = %d\n", x + y);
+ printf("빼기 = %d\n", x - y);
+ printf("곱하기 = %d\n", x * y);
+ printf("나누기 = %d\n", x / y);
+ printf("나머지 = %d\n", x % y);
+}
