@@ -1,0 +1,12 @@
+main() {
+ char op;
+ int x, y;
+ printf("수식 입력 : ");
+ scanf("%d %c %d", &x, &op, &y);
+ switch (op) {
+ case '+': printf("%d %c %d = %d\n", x, op, y, x+y); break;
+ case '-': printf("%d %c %d = %d\n", x, op, y, x-y); break;
+ case '*': printf("%d %c %d = %d\n", x, op, y, x*y); break;
+ case '/': printf("%d %c %d = %d\n", x, op, y, x/y); break;
+ }
+}
